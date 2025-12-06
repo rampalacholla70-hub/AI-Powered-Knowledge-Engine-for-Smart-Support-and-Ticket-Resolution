@@ -7,3 +7,19 @@ venv/
 # Optional: ignore pycache
 __pycache__/
 *.pyc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# OS files
+.DS_Store
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# JSON app state
+app_state.json
