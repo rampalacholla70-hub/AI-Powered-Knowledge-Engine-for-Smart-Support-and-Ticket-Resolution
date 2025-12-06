@@ -1,0 +1,9 @@
+# Python virtual environment
+venv/
+
+# Environment variables
+.env
+.streamlit/secrets.toml
+# Optional: ignore pycache
+__pycache__/
+*.pyc

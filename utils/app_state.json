@@ -1,0 +1,1708 @@
+{
+  "tickets": [
+    {
+      "id": "TCK-001",
+      "email": "aditya@gmail.com",
+      "message": "issue",
+      "category": "Login Issue",
+      "status": "Resolved",
+      "agent": "Not Assigned",
+      "created_at": "2025-12-05 11:39:10"
+    },
+    {
+      "id": "TCK-002",
+      "email": "aditya@gmail.com",
+      "message": "blue screen issue",
+      "category": "Other",
+      "status": "Resolved",
+      "agent": "agent1",
+      "created_at": "2025-12-05 17:29:27"
+    }
+  ],
+  "chat": {
+    "TCK-001": [
+      {
+        "sender": "User",
+        "name": "aditya@gmail.com",
+        "message": "issue",
+        "timestamp": "2025-12-05 11:39:10"
+      },
+      {
+        "sender": "User",
+        "name": "aditya@gmail.com",
+        "message": "login issue",
+        "timestamp": "2025-12-05 11:39:18"
+      },
+      {
+        "sender": "User",
+        "name": "aditya@gmail.com",
+        "message": "login issue",
+        "timestamp": "2025-12-05 11:39:19"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "wait!",
+        "timestamp": "2025-12-05 12:48:27"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "wait!",
+        "timestamp": "2025-12-05 12:48:29"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "i will get back to you",
+        "timestamp": "2025-12-05 12:49:41"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "i will get back to you",
+        "timestamp": "2025-12-05 12:49:47"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "just 5min",
+        "timestamp": "2025-12-05 12:56:16"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "User1",
+        "timestamp": "2025-12-05 16:58:40"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "2 min",
+        "timestamp": "2025-12-05 16:58:54"
+      }
+    ],
+    "TCK-002": [
+      {
+        "sender": "User",
+        "name": "aditya@gmail.com",
+        "message": "blue screen issue",
+        "timestamp": "2025-12-05 17:29:27"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "I'm here to help you with the blue screen issue. To troubleshoot, let's start with some basic steps. Can you try disconnecting all external devices except your keyboard and mouse, and then restart your computer to see if it boots normally? If the issue persists, we can proceed with further troubleshooting steps, such as performing a hard reset or running the SupportAssist Blue Screen Troubleshooter. What is the STOP code displayed on the blue screen, if any?",
+        "timestamp": "2025-12-06 11:11:35"
+      },
+      {
+        "sender": "User",
+        "name": "aditya@gmail.com",
+        "message": "Thank you",
+        "timestamp": "2025-12-06 11:12:25"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "Welcome",
+        "timestamp": "2025-12-06 11:13:48"
+      },
+      {
+        "sender": "User",
+        "name": "aditya@gmail.com",
+        "message": "Hello",
+        "timestamp": "2025-12-06 11:22:30"
+      },
+      {
+        "sender": "Agent",
+        "name": "agent1",
+        "message": "Hi",
+        "timestamp": "2025-12-06 11:22:42"
+      },
+      {
+        "sender": "User",
+        "name": "aditya@gmail.com",
+        "message": "hlo",
+        "timestamp": "2025-12-06 11:26:24"
+      }
+    ]
+  },
+  "rag_chat": {
+    "TCK-001": [
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: login issue",
+        "timestamp": "2025-12-05 11:40:50"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: login issue",
+        "timestamp": "2025-12-05 11:40:52"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: login issue",
+        "timestamp": "2025-12-05 11:41:32"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: login issue",
+        "timestamp": "2025-12-05 11:41:35"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: login issue",
+        "timestamp": "2025-12-05 12:47:13"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: login issue",
+        "timestamp": "2025-12-05 12:47:19"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: login issue",
+        "timestamp": "2025-12-05 12:48:22"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: tracpad issue",
+        "timestamp": "2025-12-05 12:55:34"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: tracpad issue",
+        "timestamp": "2025-12-05 12:55:38"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: tracpad issue",
+        "timestamp": "2025-12-05 16:46:39"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 16:46:39"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: tracpad issue",
+        "timestamp": "2025-12-05 16:46:40"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 16:46:40"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: trackpad issue",
+        "timestamp": "2025-12-05 16:57:01"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 16:57:01"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: trackpad issue",
+        "timestamp": "2025-12-05 16:57:06"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 16:57:06"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: trackpad issue",
+        "timestamp": "2025-12-05 16:57:10"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 16:57:10"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: trackpad issue",
+        "timestamp": "2025-12-05 16:57:13"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 16:57:13"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: trackpad issue",
+        "timestamp": "2025-12-05 16:57:16"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 16:57:16"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: trackpad issue",
+        "timestamp": "2025-12-05 17:00:29"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 17:00:29"
+      }
+    ],
+    "TCK-002": [
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: blue screen issue",
+        "timestamp": "2025-12-05 17:30:52"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not available.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 17:30:52"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: blue screen issue",
+        "timestamp": "2025-12-05 17:31:37"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not available.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 17:31:37"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: blue screen issue",
+        "timestamp": "2025-12-05 18:24:39"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 18:24:39"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: blue screen issue",
+        "timestamp": "2025-12-05 18:24:41"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 18:24:41"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: blue screen issue",
+        "timestamp": "2025-12-05 18:24:47"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 18:24:47"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: blue screen issue",
+        "timestamp": "2025-12-05 18:25:16"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 18:25:16"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: trackpad",
+        "timestamp": "2025-12-05 18:50:11"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 18:50:11"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: laptop keyboard isnt working",
+        "timestamp": "2025-12-05 19:17:29"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-05 19:17:29"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 10:11:51"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-06 10:11:51"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 10:12:31"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-06 10:12:31"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 10:20:29"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "RAG backend not configured.",
+        "doc_context": [],
+        "timestamp": "2025-12-06 10:20:29"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I  am facing a blue screen issue.",
+        "timestamp": "2025-12-06 10:32:56"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I  am facing a blue screen issue.",
+        "timestamp": "2025-12-06 10:41:00"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 10:42:00"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 10:45:35"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 10:49:53"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 11:08:11"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "I'm here to help you with the blue screen issue. To troubleshoot, let's start with some basic steps. Can you try disconnecting all external devices except your keyboard and mouse, and then restart your computer to see if it boots normally? If the issue persists, we can proceed with further troubleshooting steps, such as performing a hard reset or running the SupportAssist Blue Screen Troubleshooter. What is the STOP code displayed on the blue screen, if any?",
+        "doc_context": [
+          "A STOP code is a hexadecimal code displayed on the BSOD screen that helps identify the specific error causing the crash. Examples include 0x0000007E or 0x00000050. What causes a BSOD? Blue Screens (BSODs) often happen from faulty hardware, outdated or corrupt drivers, software conflicts, viruses, or corrupt system files. Common reasons include faulty memory (RAM), damaged hard drives, old drivers, and overheating. Fixing Blue Screen (BSOD) Errors in Windows Step 1: Disconnecting External Devices - Disconnect all external peripherals except your keyboard and mouse. Restart your computer to test if it boots normally. Step 2: Performing a Hard Reset - Power off your computer by holding the power button. Disconnect the power source, press and hold the power button for 20 seconds, reconnect, and power on.",
+          "Step 5: Running SupportAssist Blue Screen Troubleshooter - Search for and open SupportAssist. Select Get Started > Fix my PC > Fix now. Step 6: Repairing Windows Startup Files - Use Startup Repair via Windows Recovery Environment. Select Troubleshoot > Advanced Options > Startup Repair. Step 7: Repairing Windows Using SupportAssist OS Recovery - Restart your computer, press F12, choose SupportAssist OS Recovery, and select Repair. Preventive Measures (When Windows Boots Successfully) Update BIOS and drivers using SupportAssist, check for Windows updates, and repair system files using the DISM command. Frequently Asked Questions (FAQs) Here are some frequently asked questions about Blue Screen or BSOD errors on Windows computers. 1. What are some common Blue Screen (BSOD) errors? Examples include PAGE_FAULT_IN_NONPAGED_AREA, SYSTEM_SERVICE_EXCEPTION, and DRIVER_IRQL_NOT_LESS_OR_EQUAL.",
+          "Blue Screen Error (BSOD) Troubleshooting for Dell Laptops Blue Screen (BSOD) Errors and Stop Code Issues in Windows What is Blue Screen of Death (BSOD)? Blue Screen of Death (BSOD) error happens when Windows encounters a critical error it can’t recover from and forces your computer to restart abruptly. This can be caused by hardware failures, driver conflicts, corrupt system files, or software problems. In Windows 10 and Windows 11, you’ll see a message that says “Your PC ran into a problem and needs to restart” with a STOP code. What is a STOP Code? A STOP code is a hexadecimal code displayed on the BSOD screen that helps identify the specific error causing the crash. Examples include 0x0000007E or 0x00000050. What causes a BSOD? Blue Screens (BSODs) often happen from faulty hardware, outdated or corrupt drivers, software conflicts, viruses, or corrupt system files.",
+          "Here are some frequently asked questions about Blue Screen or BSOD errors on Windows computers. 1. What are some common Blue Screen (BSOD) errors? Examples include PAGE_FAULT_IN_NONPAGED_AREA, SYSTEM_SERVICE_EXCEPTION, and DRIVER_IRQL_NOT_LESS_OR_EQUAL. 2. How do I find out what caused the BSOD? Use Event Viewer or Windows Debugger to analyze crash dump files. 3. How do I use Event Viewer to troubleshoot a BSOD? Navigate to Windows Logs > System and check critical errors. 4. What is a minidump file? A small file created during BSOD containing crash information. 5. How do I update my drivers to prevent BSODs? Use SupportAssist, Dell Update, or Dell Command Update. 6. How do I disable automatic restart on a BSOD? Go to Control Panel > System > Advanced system settings > Startup and Recovery > Uncheck Automatically restart."
+        ],
+        "timestamp": "2025-12-06 11:08:42"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 11:23:09"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 11:25:00"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "I'm here to help you with the blue screen issue. To troubleshoot, let's start with some basic steps. Can you try disconnecting all external devices except your keyboard and mouse, then restart your computer to see if it boots normally? If the issue persists, we can proceed with further troubleshooting steps, such as performing a hard reset or running the SupportAssist Blue Screen Troubleshooter. What is the STOP code displayed on the blue screen, if any?",
+        "doc_context": [
+          "A STOP code is a hexadecimal code displayed on the BSOD screen that helps identify the specific error causing the crash. Examples include 0x0000007E or 0x00000050. What causes a BSOD? Blue Screens (BSODs) often happen from faulty hardware, outdated or corrupt drivers, software conflicts, viruses, or corrupt system files. Common reasons include faulty memory (RAM), damaged hard drives, old drivers, and overheating. Fixing Blue Screen (BSOD) Errors in Windows Step 1: Disconnecting External Devices - Disconnect all external peripherals except your keyboard and mouse. Restart your computer to test if it boots normally. Step 2: Performing a Hard Reset - Power off your computer by holding the power button. Disconnect the power source, press and hold the power button for 20 seconds, reconnect, and power on.",
+          "Step 5: Running SupportAssist Blue Screen Troubleshooter - Search for and open SupportAssist. Select Get Started > Fix my PC > Fix now. Step 6: Repairing Windows Startup Files - Use Startup Repair via Windows Recovery Environment. Select Troubleshoot > Advanced Options > Startup Repair. Step 7: Repairing Windows Using SupportAssist OS Recovery - Restart your computer, press F12, choose SupportAssist OS Recovery, and select Repair. Preventive Measures (When Windows Boots Successfully) Update BIOS and drivers using SupportAssist, check for Windows updates, and repair system files using the DISM command. Frequently Asked Questions (FAQs) Here are some frequently asked questions about Blue Screen or BSOD errors on Windows computers. 1. What are some common Blue Screen (BSOD) errors? Examples include PAGE_FAULT_IN_NONPAGED_AREA, SYSTEM_SERVICE_EXCEPTION, and DRIVER_IRQL_NOT_LESS_OR_EQUAL.",
+          "Blue Screen Error (BSOD) Troubleshooting for Dell Laptops Blue Screen (BSOD) Errors and Stop Code Issues in Windows What is Blue Screen of Death (BSOD)? Blue Screen of Death (BSOD) error happens when Windows encounters a critical error it can’t recover from and forces your computer to restart abruptly. This can be caused by hardware failures, driver conflicts, corrupt system files, or software problems. In Windows 10 and Windows 11, you’ll see a message that says “Your PC ran into a problem and needs to restart” with a STOP code. What is a STOP Code? A STOP code is a hexadecimal code displayed on the BSOD screen that helps identify the specific error causing the crash. Examples include 0x0000007E or 0x00000050. What causes a BSOD? Blue Screens (BSODs) often happen from faulty hardware, outdated or corrupt drivers, software conflicts, viruses, or corrupt system files.",
+          "Here are some frequently asked questions about Blue Screen or BSOD errors on Windows computers. 1. What are some common Blue Screen (BSOD) errors? Examples include PAGE_FAULT_IN_NONPAGED_AREA, SYSTEM_SERVICE_EXCEPTION, and DRIVER_IRQL_NOT_LESS_OR_EQUAL. 2. How do I find out what caused the BSOD? Use Event Viewer or Windows Debugger to analyze crash dump files. 3. How do I use Event Viewer to troubleshoot a BSOD? Navigate to Windows Logs > System and check critical errors. 4. What is a minidump file? A small file created during BSOD containing crash information. 5. How do I update my drivers to prevent BSODs? Use SupportAssist, Dell Update, or Dell Command Update. 6. How do I disable automatic restart on a BSOD? Go to Control Panel > System > Advanced system settings > Startup and Recovery > Uncheck Automatically restart."
+        ],
+        "timestamp": "2025-12-06 11:25:01"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 12:18:02"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 12:18:36"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 12:18:51"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "Error processing request.",
+        "doc_context": [],
+        "timestamp": "2025-12-06 12:18:51"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 12:24:21"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: I am facing a blue screen issue.",
+        "timestamp": "2025-12-06 12:25:25"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "I'm here to help you with the blue screen issue. To troubleshoot, let's start by disconnecting all external devices except your keyboard and mouse, and then restart your computer. If the issue persists, we can try a hard reset by powering off your computer, disconnecting the power source, pressing and holding the power button for 20 seconds, and then reconnecting and powering on. \n\nCan you please tell me the STOP code displayed on the blue screen, if any? This will help me identify the specific error causing the crash. Additionally, have you recently installed any new software or hardware that might be causing the issue?",
+        "doc_context": [
+          "A STOP code is a hexadecimal code displayed on the BSOD screen that helps identify the specific error causing the crash. Examples include 0x0000007E or 0x00000050. What causes a BSOD? Blue Screens (BSODs) often happen from faulty hardware, outdated or corrupt drivers, software conflicts, viruses, or corrupt system files. Common reasons include faulty memory (RAM), damaged hard drives, old drivers, and overheating. Fixing Blue Screen (BSOD) Errors in Windows Step 1: Disconnecting External Devices - Disconnect all external peripherals except your keyboard and mouse. Restart your computer to test if it boots normally. Step 2: Performing a Hard Reset - Power off your computer by holding the power button. Disconnect the power source, press and hold the power button for 20 seconds, reconnect, and power on.",
+          "Step 5: Running SupportAssist Blue Screen Troubleshooter - Search for and open SupportAssist. Select Get Started > Fix my PC > Fix now. Step 6: Repairing Windows Startup Files - Use Startup Repair via Windows Recovery Environment. Select Troubleshoot > Advanced Options > Startup Repair. Step 7: Repairing Windows Using SupportAssist OS Recovery - Restart your computer, press F12, choose SupportAssist OS Recovery, and select Repair. Preventive Measures (When Windows Boots Successfully) Update BIOS and drivers using SupportAssist, check for Windows updates, and repair system files using the DISM command. Frequently Asked Questions (FAQs) Here are some frequently asked questions about Blue Screen or BSOD errors on Windows computers. 1. What are some common Blue Screen (BSOD) errors? Examples include PAGE_FAULT_IN_NONPAGED_AREA, SYSTEM_SERVICE_EXCEPTION, and DRIVER_IRQL_NOT_LESS_OR_EQUAL.",
+          "Blue Screen Error (BSOD) Troubleshooting for Dell Laptops Blue Screen (BSOD) Errors and Stop Code Issues in Windows What is Blue Screen of Death (BSOD)? Blue Screen of Death (BSOD) error happens when Windows encounters a critical error it can’t recover from and forces your computer to restart abruptly. This can be caused by hardware failures, driver conflicts, corrupt system files, or software problems. In Windows 10 and Windows 11, you’ll see a message that says “Your PC ran into a problem and needs to restart” with a STOP code. What is a STOP Code? A STOP code is a hexadecimal code displayed on the BSOD screen that helps identify the specific error causing the crash. Examples include 0x0000007E or 0x00000050. What causes a BSOD? Blue Screens (BSODs) often happen from faulty hardware, outdated or corrupt drivers, software conflicts, viruses, or corrupt system files.",
+          "Here are some frequently asked questions about Blue Screen or BSOD errors on Windows computers. 1. What are some common Blue Screen (BSOD) errors? Examples include PAGE_FAULT_IN_NONPAGED_AREA, SYSTEM_SERVICE_EXCEPTION, and DRIVER_IRQL_NOT_LESS_OR_EQUAL. 2. How do I find out what caused the BSOD? Use Event Viewer or Windows Debugger to analyze crash dump files. 3. How do I use Event Viewer to troubleshoot a BSOD? Navigate to Windows Logs > System and check critical errors. 4. What is a minidump file? A small file created during BSOD containing crash information. 5. How do I update my drivers to prevent BSODs? Use SupportAssist, Dell Update, or Dell Command Update. 6. How do I disable automatic restart on a BSOD? Go to Control Panel > System > Advanced system settings > Startup and Recovery > Uncheck Automatically restart."
+        ],
+        "timestamp": "2025-12-06 12:25:26"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: battery issue",
+        "timestamp": "2025-12-06 13:24:05"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: battery issue",
+        "timestamp": "2025-12-06 13:24:14"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: battery issue",
+        "timestamp": "2025-12-06 13:24:22"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "To address your battery issue, I recommend trying the following steps:\n\n1. **Use Battery Saving Options**: Adjust your power settings in Windows 11 or 10 to maximize battery life.\n2. **Care for Your Battery**: Follow Microsoft's guidelines for caring for your lithium-ion battery.\n3. **Check Battery Health**: Generate a detailed battery report in Windows to assess your battery's health and estimated capacity.\n\nIf issues persist, consider:\n- Unplugging external devices\n- Restarting your computer\n- Performing a hard reset (if your laptop won't boot up)\n\nFor more information, you can refer to the Microsoft Knowledge Base articles on battery saving tips and caring for your battery. If you need further assistance, feel free to ask.",
+        "doc_context": [
+          "When available, closed caption (subtitles) language settings can be chosen using the CC icon on this video player. FIX ONE: Use the Battery Saving Options Within Windows 11 and Windows 10 Windows 11 and Windows 10 provide integrated tools and recommended settings to maximize your laptop's battery life. The following article provides information about how to configure these options: Choose energy saving settings Use the energy saver options Change display settings Change power setting Microsoft Knowledge Base: Battery saving tips for Windows (This hyperlink is taking you to a website outside of Dell Technologies.) FIX TWO: Caring for Your Battery in Windows 11 and Windows 10 Like most laptops, Dell laptops use lithium-ion batteries, which are the most common type of battery used in today's mobile devices.",
+          "Microsoft Knowledge Base: Battery saving tips for Windows (This hyperlink is taking you to a website outside of Dell Technologies.) FIX TWO: Caring for Your Battery in Windows 11 and Windows 10 Like most laptops, Dell laptops use lithium-ion batteries, which are the most common type of battery used in today's mobile devices. The following article provides information about various things that you can do to maximize the health of your battery: Microsoft Knowledge Base: Caring for your battery in Windows (This hyperlink is taking you to a website outside of Dell Technologies.) Note: Ensure that you perform the steps in the 'Get a detailed battery report in Windows 11' section. It reports on your battery usage and its estimated capacity. FIX THREE: Check the Battery Health Status on Your Dell Laptop",
+          "The Battery is Draining Quicker than Expected on a Dell Laptop Instructions Your laptop battery draining quickly could be due to one of the following reasons: Running too many applications at once Using resource-intensive programs (For example: Video editing software and video games) High screen brightness Background processes Outdated software A failing battery as all batteries wear out over time Incorrect power settings See the following resources to help you improve your laptop's battery life. How to Improve Battery Life Duration: 00:02:46 (hh:mm:ss) When available, closed caption (subtitles) language settings can be chosen using the CC icon on this video player. FIX ONE: Use the Battery Saving Options Within Windows 11 and Windows 10 Windows 11 and Windows 10 provide integrated tools and recommended settings to maximize your laptop's battery life.",
+          "Unplug External Devices: Remove USB drives, printers, and other peripherals. Restart the Computer: Press the power button to see if it boots up. If your computer boots into Windows, try these steps. If it doesn't boot up, proceed to the next step. Step 2: Performing a Hard Reset Discharging residual electricity can often fix startup problem when your computer does not boot into Windows. Turn Off the Computer: Hold the power button until the computer shuts down. Disconnect the power source: Unplug the power cable or remove the battery if it’s a laptop (removable batteries only). Hold the Power Button: Press and hold it for 15-20 seconds to drain any residual power. Reconnect the Power Source: Plug in the power cable or reinsert the battery. Turn On the Computer: Press the power button to see if it boots up."
+        ],
+        "timestamp": "2025-12-06 13:24:23"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: tracpad issue",
+        "timestamp": "2025-12-06 13:25:12"
+      },
+      {
+        "sender": "User",
+        "name": "agent1",
+        "message": "Agent Query: tracpad issue",
+        "timestamp": "2025-12-06 13:25:16"
+      },
+      {
+        "sender": "RAG",
+        "name": "RAG Assistant",
+        "message": "To troubleshoot your touchpad issue, try the following steps:\n\n1. Ensure the Touchpad option is turned on.\n2. Check for updates for your touchpad driver using SupportAssist or the Dell Support Site.\n3. Adjust settings in Touchpad > Gestures & interaction, and reduce sensitivity if necessary.\n4. Reset touchpad settings to defaults by going to Touchpad settings > Expand > Click Reset.\n5. If issues persist, try using an external mouse to confirm if the problem is specific to the touchpad.\n\nIf none of these steps resolve the issue, you can join the Dell Community Forums or contact Dell Support for further assistance.",
+        "doc_context": [
+          "Laptop Touchpad Not Working If your laptop touchpad isn't working as expected, it can disrupt your workflow. Touchpad issues may range from unresponsive touchpad to erratic cursor movement. This article provides step-by-step instructions to diagnose and fix touchpad issues on your Dell laptop. If you're using a USB, Bluetooth, or wireless mouse, check out our guide to resolve mouse issues. Just bought a new mouse and need help? Check out our mouse setup guide! Touchpad of a laptop Common Symptoms of Touchpad Issues Touchpad issues can occur in many ways. Here are some common signs of touchpad problems: • Touchpad is unresponsive. • Erratic or jumpy cursor. • Gestures are not working. • Left or right click or tap doesn't work. • Touchpad freezes intermittently. • Unintended or ghost touches. How to Fix Laptop Touchpad Issues",
+          "Adjust settings in Touchpad > Gestures & interaction. How do I swap the left and right buttons of my touchpad? Go to More touchpad settings > Mouse Properties > Buttons tab > Switch primary and secondary buttons. How do I clean my touchpad? Use a soft microfiber cloth dampened with water. Avoid harsh chemicals. Why does my touchpad freeze intermittently? Update your touchpad drivers and close unnecessary apps. Why does my mouse cursor jump when I am typing? Reduce touchpad sensitivity and ensure drivers are up to date. Why does the mouse pointer or cursor automatically hide while typing? Go to Pointer Options tab in Mouse Properties and uncheck 'Hide pointer while typing'. What should I do if right-click function isn't working on my touchpad? Ensure tap-to-click features are enabled in Windows touchpad settings.",
+          "Turn on the Touchpad option. How do I reset the touchpad settings and gestures to defaults? Go to Touchpad settings > Expand > Click Reset to restore defaults. Why doesn't my laptop have left and right-click buttons? Many modern laptops integrate click functions directly into the touchpad. Do I need an external mouse for troubleshooting? Using an external mouse can confirm if the issue is specific to the touchpad. How can I check if my touchpad driver is up to date? Use SupportAssist or manually check for updates in Dell Support Site. Can touchpad sensitivity cause issues? Yes, high sensitivity can cause erratic cursor movement. Adjust settings in Touchpad > Gestures & interaction. How do I swap the left and right buttons of my touchpad? Go to More touchpad settings > Mouse Properties > Buttons tab > Switch primary and secondary buttons.",
+          "Go to Pointer Options tab in Mouse Properties and uncheck 'Hide pointer while typing'. What should I do if right-click function isn't working on my touchpad? Ensure tap-to-click features are enabled in Windows touchpad settings. What if none of these troubleshooting steps work? Join the Dell Community Forums or contact Dell Support for further help."
+        ],
+        "timestamp": "2025-12-06 13:25:16"
+      }
+    ]
+  },
+  "agent_feedback": [
+    {
+      "ticket_id": "TCK-001",
+      "agent": "agent1",
+      "usefulness": "Not Useful",
+      "missing_kb": "need more docs",
+      "status": "In Progress",
+      "timestamp": "2025-12-05 11:41:53"
+    },
+    {
+      "ticket_id": "TCK-001",
+      "agent": "agent1",
+      "usefulness": "Not Useful",
+      "missing_kb": "need more docs",
+      "status": "In Progress",
+      "timestamp": "2025-12-05 11:41:54"
+    },
+    {
+      "ticket_id": "TCK-001",
+      "agent": "agent1",
+      "usefulness": "N/A (Resolved Quickly)",
+      "missing_kb": "",
+      "status": "Resolved",
+      "timestamp": "2025-12-05 17:25:37"
+    },
+    {
+      "ticket_id": "TCK-002",
+      "agent": "agent1",
+      "usefulness": "N/A (Resolved Quickly)",
+      "missing_kb": "",
+      "status": "Resolved",
+      "timestamp": "2025-12-06 13:28:09"
+    }
+  ],
+  "kb_uploads": [
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:27:59"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:02"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:09"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:09"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:12"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:15"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:18"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:21"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:24"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:27"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:30"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:33"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:39"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:42"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:48"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:51"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:28:57"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:00"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:09"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:12"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:15"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:18"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:21"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:24"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:27"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:30"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:33"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:39"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:42"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:48"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:49"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:51"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:29:57"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:00"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:09"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:12"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:15"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:19"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:21"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:24"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:27"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:30"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:33"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:39"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:42"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:48"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:51"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:30:57"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:00"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:35"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:39"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:42"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:48"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:51"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:31:57"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:00"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:09"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:12"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:15"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:18"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:21"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:24"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:27"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:30"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:33"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:39"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:42"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:48"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:51"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:32:57"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:00"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:09"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:12"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:15"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:18"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:21"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:24"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:27"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:30"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:33"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:39"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:42"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:48"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:51"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:33:57"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:00"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:35"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:39"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:42"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:48"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:51"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:55"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:34:57"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:35:00"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:35:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:35:05"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:05"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:35:06"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:35:09"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:09"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:12"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:12"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:13"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:14"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:17"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:20"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:21"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:21"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:24"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:27"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:30"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:33"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:36"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:39"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:42"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:45"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:48"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:51"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:54"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:35:57"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:00"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:03"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:06"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:09"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:12"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:15"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:18"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:21"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:35"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:36"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:39"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:42"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:45"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:48"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:51"
+    },
+    {
+      "file": "Resume chronological.docx",
+      "uploaded_at": "2025-12-06 12:36:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:37:44"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:37:47"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:37:47"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:37:50"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:37:53"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:37:56"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:02"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:05"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:08"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:11"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:13"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:17"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:20"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:23"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:26"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:29"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:32"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:35"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:38"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:41"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:44"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:47"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:50"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:53"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:56"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:38:59"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:02"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:05"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:08"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:11"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:38"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:41"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:44"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:47"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:50"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:53"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:56"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:39:59"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:02"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:05"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:08"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:11"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:14"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:18"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:39"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:41"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:41"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:42"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:49"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:52"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:55"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:40:58"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:01"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:04"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:07"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:10"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:13"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:16"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:19"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:22"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:25"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:28"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:30"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:41:57"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:00"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:03"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:09"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:12"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:15"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:18"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:21"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:24"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:27"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:42:30"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:43:45"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:43:48"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:43:51"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:43:53"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:43:54"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:06"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:09"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:12"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:17"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:18"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:21"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:24"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:27"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:30"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:33"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:36"
+    },
+    {
+      "file": "23331A05D5_DBMS_RECORD.docx",
+      "uploaded_at": "2025-12-06 12:44:39"
+    }
+  ]
+}

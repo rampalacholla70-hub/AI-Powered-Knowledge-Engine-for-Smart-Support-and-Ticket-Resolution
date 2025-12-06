@@ -1,0 +1,13 @@
+{
+    "chat": {
+        "TCK-001": [
+            {
+                "sender": "User",
+                "name": "aditya@gmail.com",
+                "message": "trackpad issue",
+                "timestamp": "2025-12-05 00:17:14"
+            }
+        ]
+    },
+    "rag_chat": {}
+}
