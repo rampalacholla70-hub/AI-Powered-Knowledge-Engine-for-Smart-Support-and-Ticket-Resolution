@@ -38,31 +38,24 @@ CHUNK_OVERLAP_CHARS = int(os.getenv("CHUNK_OVERLAP_CHARS", 200))
 CHUNK_MIN_CHARS = int(os.getenv("CHUNK_MIN_CHARS", 200))
 
 # --- API CLIENT INIT ---
-try:
-    # Try simple key format first
-    GROQ_KEY = st.secrets.get("GROQ_API_KEY")
-    # If not found, try nested format (if you used [GROQ] in secrets.toml)
-    if not GROQ_KEY:
-        GROQ_KEY = st.secrets.get("GROQ", {}).get("API_KEY")
-except Exception:
-    GROQ_KEY = None
-
-try:
-    GEMINI_KEY = st.secrets.get("GEMINI_API_KEY")
-    if not GEMINI_KEY:
-        GEMINI_KEY = st.secrets.get("GEMINI", {}).get("API_KEY")
-except Exception:
-    GEMINI_KEY = None
-
-# Fallback to os.getenv (for local .env support)
-if not GROQ_KEY:
-    GROQ_KEY = os.getenv("GROQ_API_KEY")
-if not GEMINI_KEY:
-    GEMINI_KEY = os.getenv("GEMINI_API_KEY")
-
-
 if not GROQ_KEY and not GEMINI_KEY:
     print(" WARNING: No LLM API keys (Groq/Gemini) found. LLM responses will not be available.")
+
+try:
+    groq_client = Groq(api_key=GROQ_KEY) if GROQ_KEY else None
+except Exception as e:
+    groq_client = None
+    print(f" Groq init failed: {e}")
+
+try:
+    if GEMINI_KEY:
+        genai.configure(api_key=GEMINI_KEY)
+        gemini_model = genai.GenerativeModel("gemini-2.5-pro")
+    else:
+        gemini_model = None
+except Exception as e:
+    gemini_model = None
+    print(f" Gemini init failed: {e}")
 
 # Try to import LangChain SemanticChunker (optional)
 USE_SEMANTIC_CHUNKER = False
