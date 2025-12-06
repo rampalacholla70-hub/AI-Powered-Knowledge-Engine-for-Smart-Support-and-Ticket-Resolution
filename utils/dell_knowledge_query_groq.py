@@ -24,7 +24,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DOCS_DIR = os.path.join(BASE_DIR, "docs", "dell-data")
 # FIX: Use a permanent folder for the database
-DB_DIR = st.secrets.get("CHROMA_DB_PATH", "/mount/tmp/chroma_db")
+DB_DIR = os.path.join(BASE_DIR, "chroma_db_storage")
 
 
 # Robustly get Model Name (Handling missing secrets.toml)
