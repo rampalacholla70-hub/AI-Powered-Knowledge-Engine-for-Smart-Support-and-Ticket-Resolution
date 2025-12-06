@@ -15,9 +15,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get API keys from environment variables
-GROQ_KEY = os.getenv("GROQ_API_KEY")
-GEMINI_KEY = os.getenv("GEMINI_API_KEY")
-OPENAI_KEY = os.getenv("OPENAI_API_KEY")  # used by SemanticChunker if available
+GROQ_KEY = st.secrets.get("GROQ", {}).get("API_KEY")
+GEMINI_KEY = st.secrets.get("GEMINI", {}).get("API_KEY")
+OPENAI_KEY = st.secrets.get("OPENAI", {}).get("API_KEY")
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # --- CONFIGURATION ---
